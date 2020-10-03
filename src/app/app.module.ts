@@ -19,6 +19,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { InteractiveMapComponent } from './components/header/interactive-map/interactive-map.component';
 import { AutocompleteAddressComponent } from './components/header/autocomplete-address/autocomplete-address.component';
 import { environment } from 'src/environments/environment';
+import { InfoBlockComponent } from './components/info/info-block/info-block.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { environment } from 'src/environments/environment';
     NavbarComponent,
     InteractiveMapComponent,
     AutocompleteAddressComponent,
+    InfoBlockComponent,
   ],
   imports: [
     NgbModule,
